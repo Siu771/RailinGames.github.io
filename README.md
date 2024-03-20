@@ -8,7 +8,6 @@ Some game developers don't like to have their games on random game-site platform
 Email: [**Cartxrr@proton.me**](mailto:Cartxrr@proton.me)
 
 # 📜 Info
-Some links that might be needed
+Some links that might be wanted
 - [Game Files](https://github.com/RailinGames/files)
-- [Railin' v1](https://github.com/RailinGames/v1)
-- [Railin' v1 Rewrite](https://railingames.github.io/v1-Rewrite/)
+- [Railin' v1](https://github.com/RailinGames/RailinGames.github.io/tree/be0d6fa8f84b97ef90da0908b98ded044a53d3a5)
