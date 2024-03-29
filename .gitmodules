@@ -1,0 +1,7 @@
+[submodule "ruffle"]
+	path = api/ruffle
+	url = https://github.com/ruffle-rs/ruffle/releases/download/nightly-2024-03-28/ruffle-nightly-2024_03_28-web-selfhosted.zip
+
+[submodule "projects"]
+	path = api/projects
+	url = https://github.com/Hypverr/RailinFiles.git

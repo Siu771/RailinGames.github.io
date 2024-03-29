@@ -1,0 +1,19 @@
+{
+  "name": "railin",
+  "version": "3.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "scss": "sass --watch src/scss:public/css --no-source-map"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@titaniumnetwork-dev/ultraviolet": "2.0.0",
+    "@tomphttp/bare-server-node": "2.0.1",
+    "ejs": "^3.1.9",
+    "express": "^4.19.1",
+    "sass": "^1.72.0"
+  }
+}
