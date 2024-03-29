@@ -10,23 +10,21 @@ Railin' is The **#1** Best **Unblocked Game Site** which is ***Open Source*** so
 - 👶 Easy to use
 
 # Deploying Railin
-Download the Repository as well as the [Game Files](https://github.com/Hypverr/RailinFiles/) and [Ruffle](https://github.com/ruffle-rs/ruffle/releases/download/nightly-2024-03-28/ruffle-nightly-2024_03_28-web-selfhosted.zip). 
+Download the Repository as well as the [Game Files](https://github.com/Hypverr/RailinFiles/). 
 
 Then run `npm i` or `npm install` which will download the modules railin requires to run.
 
-Then put the game files inside of the api folder and make the folder including all the games **projects** no caps. do the same with ruffle but name it **ruffle** with no caps.
+Then put the game files inside of the api folder and make the folder including all the games **projects** no caps.
 
 Then to start the server use the command `npm run start` and there you go you should have Railin' hosted on your computer!
 
 # Info
 If you're a game developer who prefers not to have your games on random game-site platforms and your game is on Railin', but you don't want it there, please don't take down the [game files](https://github.com/RailinGames/files) repository or this repository. Instead, send me an email at cartxrr@proton.me with proof of ownership, and I'll remove it as quickly as possible!
 
-Railin' is powered by [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet), [EJS](https://ejs.co/) and [Express.JS](https://expressjs.com/).
+Railin' is powered by [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet), [EJS](https://ejs.co/), [Express.JS](https://expressjs.com/) and uses [Ruffle](https://github.com/ruffle-rs/ruffle/).
 Railin also uses icons from [Simple Icons](https://simpleicons.org/) and [Feather Icons](https://feathericons.com/).
 
 Semi-Important Links:
-- [**Ruffle Used in Development**](https://github.com/ruffle-rs/ruffle/releases/download/nightly-2024-03-28/ruffle-nightly-2024_03_28-web-selfhosted.zip)
-- [Ruffle Releases](https://github.com/ruffle-rs/ruffle/releases/)
 - [**Game Files**](https://github.com/Hypverr/RailinFiles)
 - [Railin' v2](https://github.com/Hypverr/Railin/tree/278fc2ffd1097e1cb9869843077c286fbcc624b3)
 - [Railin' v1](https://github.com/Hypverr/Railin/tree/be0d6fa8f84b97ef90da0908b98ded044a53d3a5)
