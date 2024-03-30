@@ -10,7 +10,7 @@ Railin' is The **#1** Best **Unblocked Game Site** which is ***Open Source*** so
 - 👶 Easy to use
 
 # Deploying Railin
-Download the Repository as well as the [Game Files](https://github.com/Hypverr/RailinFiles/). 
+Download the using the command `git clone --recurse-submodules -j8 https://github.com/Hypverr/Railin.git`
 
 Then run `npm i` or `npm install` which will download the modules railin requires to run.
 
