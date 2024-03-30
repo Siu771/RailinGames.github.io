@@ -12,7 +12,7 @@ Railin' is The **#1** Best **Unblocked Game Site** which is ***Open Source*** so
 # Deploying Railin
 Download the using the command `git clone --recurse-submodules -j8 https://github.com/Hypverr/Railin.git`
 
-Then run `npm i` or `npm install` which will download the modules railin requires to run.
+Then run `npm i` and `npm run scss` which will download the modules railin requires to run.
 
 Then to start the server use the command `npm run start` and there you go you should have Railin' hosted on your computer!
 
