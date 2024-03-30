@@ -14,8 +14,6 @@ Download the using the command `git clone --recurse-submodules -j8 https://githu
 
 Then run `npm i` or `npm install` which will download the modules railin requires to run.
 
-Then put the game files inside of the api folder and make the folder including all the games **projects** no caps.
-
 Then to start the server use the command `npm run start` and there you go you should have Railin' hosted on your computer!
 
 # Info
