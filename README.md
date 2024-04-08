@@ -3,9 +3,8 @@ Railin' is The **#1** Best **Unblocked Game Site** including Tab Cloaking, Theme
 If you Fork please consider giving Railin' a Star too! ⭐
 
 # Deploying Railin'
-Download the Railin' Repo using either commands listed below (if you have git installed) <br>
-`git clone https://github.com/Hypverr/Railin.git` *doesnt include game files* <br>
-`git clone --recurse-submodules -j8 https://github.com/Hypverr/Railin.git` *includes game files*
+Download the Railin' Repo using the command listed below (if you have git installed) <br>
+`git clone https://github.com/Hypverr/Railin.git` *doesnt include game files*
 
 Then run `npm i` in your command line, after modules install run `npm run start` and  Railin' running on your computer at http://localhost:8000/
 
