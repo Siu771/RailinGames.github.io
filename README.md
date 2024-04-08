@@ -1,26 +1,23 @@
 # 🚆 Railin
-Railin' is The **#1** Best **Unblocked Game Site** which is ***Open Source*** so you can modify it or even **host it your self**!
+Railin' is The **#1** Best **Unblocked Game Site** including Tab Cloaking, Themes, a Proxy and many more features! <br>
+If you Fork please consider giving Railin' a Star too! ⭐
 
-# Features
-- 🔐 Ultraviolet Proxy
-- 🎨 Themes
-- 🐱‍👤 Tab Cloaking
-- 🎮 98+ Games to choose from
-- 📱 Built in Apps
-- 👶 Easy to use
+# Deploying Railin'
+Download the Railin' Repo using either commands listed below (if you have git installed) <br>
+`git clone https://github.com/Hypverr/Railin.git` *doesnt include game files* <br>
+`git clone --recurse-submodules -j8 https://github.com/Hypverr/Railin.git` *includes game files*
 
-# Deploying Railin
-Download the using the command `git clone --recurse-submodules -j8 https://github.com/Hypverr/Railin.git`
-
-Then run `npm i` and `npm run scss` which will download the modules railin requires to run.
-
-Then to start the server use the command `npm run start` and there you go you should have Railin' hosted on your computer!
+Then run `npm i` in your command line, after modules install run `npm run start` and  Railin' running on your computer at http://localhost:8000/
 
 # Info
 If you're a game developer who prefers not to have your games on random game-site platforms and your game is on Railin', but you don't want it there, please don't take down the [game files](https://github.com/RailinGames/files) repository or this repository. Instead, send me an email at cartxrr@proton.me with proof of ownership, and I'll remove it as quickly as possible!
 
-Railin' is powered by [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet), [EJS](https://ejs.co/), [Express.JS](https://expressjs.com/) and uses [Ruffle](https://github.com/ruffle-rs/ruffle/).
-Railin also uses icons from [Simple Icons](https://simpleicons.org/) and [Feather Icons](https://feathericons.com/).
+Railin' is powered by [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet), and [Ruffle](https://github.com/ruffle-rs/ruffle/).
+Icons from [Simple Icons](https://simpleicons.org/) and [Feather Icons](https://feathericons.com/).
+
+Railin' is Running off of an older version of ultraviolet because this was built before v3 so expect errors.
+
+Railin' v3 will **NOT** work with GitHub Pages. If you want to use GitHub Pages use [Railin' v2](https://github.com/Hypverr/Railin/tree/278fc2ffd1097e1cb9869843077c286fbcc624b3).
 
 Semi-Important Links:
 - [**Game Files**](https://github.com/Hypverr/RailinFiles)

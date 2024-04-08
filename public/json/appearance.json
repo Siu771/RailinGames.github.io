@@ -1,11 +1,15 @@
 {
-    "Themes": [
-        "Default",
-        "Light",
-        "Rifted",
-        "Nova",
-        "e926.net"
-    ],
+    "Themes": {
+        "Colors": [
+            "Default",
+            "Light"
+        ],
+        "Sites": [
+            "Rifted",
+            "Nova",
+            "e926.net"
+        ]
+    },
     "Cloaks": [
         {
             "cloak": "Railin",
