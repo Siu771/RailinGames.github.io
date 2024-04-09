@@ -1,0 +1,3 @@
+[submodule "public/cdn/projects"]
+	path = public/cdn/projects
+	url = https://github.com/Hypverr/RailinFiles/

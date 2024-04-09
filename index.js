@@ -9,10 +9,10 @@ if (existsSync("./public/css/") && existsSync("./public/cdn/projects/")) {
 
   const app = express();
 
-  app.use(express.static("public"));
-
   app.engine('.html', require('ejs').__express);
   app.set('view engine', 'html');
+  app.use(express.static("public"));
+
   app.get('/', (req, res) => { res.render(__dirname + '/src/views/index.html') } )
   app.get('/settings', (req, res) => { res.render(__dirname + '/src/views/settings.html') })
   app.get('/projects', (req, res) => { res.render(__dirname + '/src/views/projects.html') })
