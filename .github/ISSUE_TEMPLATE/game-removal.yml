@@ -1,5 +1,5 @@
-name: "Game Removal"
-about: "Request to take down a game from Railin'"
+name: Game Removal
+description: Request to take down a game from Railin'
 labels: ["REMOVAL"]
 body:
   - type: input
