@@ -1,5 +1,5 @@
-name: Game Removal
-about: Request to take down a game from Railin'
+name: "Game Removal"
+about: "Request to take down a game from Railin'"
 title: ''
 labels: ["REMOVAL"]
 assignees: ''
@@ -12,7 +12,7 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-- type: input
+  - type: input
     id: name
     attributes:
       label: Games Name
