@@ -1,4 +1,3 @@
----
 name: Game Removal
 about: Request to take down a game from Railin'
 title: ''
@@ -27,6 +26,3 @@ body:
       label: Reasoning For Takedown
       description: Please explain why you would like to take down your game.
       render: shell
----
-
-
