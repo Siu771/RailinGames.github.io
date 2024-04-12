@@ -1,8 +1,6 @@
 name: "Game Removal"
 about: "Request to take down a game from Railin'"
-title: ''
 labels: ["REMOVAL"]
-assignees: ''
 body:
   - type: input
     id: contact
