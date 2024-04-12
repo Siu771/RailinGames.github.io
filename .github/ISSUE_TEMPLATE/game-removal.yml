@@ -23,4 +23,5 @@ body:
     attributes:
       label: Reasoning For Takedown
       description: Please explain why you would like to take down your game.
+      placeholder: ex. I would like to take my game down because a hotdogs a sandwhich
       render: shell
