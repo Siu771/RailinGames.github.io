@@ -1,24 +1,28 @@
-# 🚆 Railin
-Railin' is The **#1** Best **Unblocked Game Site** including Tab Cloaking, Themes, a Proxy and many more features! <br>
-If you Fork please consider giving Railin' a Star too! ⭐
+<p align="center"><img src="https://repository-images.githubusercontent.com/610056686/f8484096-5768-41da-88b3-5c9e97677ac9" height=175></p>
 
-# Deploying Railin'
-Download the Railin' Repo using the command listed below (if you have git installed) <br>
-`git clone https://github.com/Hypverr/Railin.git` *doesnt include game files*
+# 🚆 Railin'
+Railin' is The #1 **Unblocked Game Site** including Tab Cloaking, Themes, a **Proxy** and much more! <br>
 
-Then run `npm i` in your command line, after modules install run `npm run start` and  Railin' running on your computer at http://localhost:8000/
+<hr>
 
-# Info
-If you're a game developer who prefers not to have your games on random game-site platforms and your game is on Railin', but you don't want it there, please don't take down the [game files](https://github.com/RailinGames/files) repository or this repository. Instead, send me an email at cartxrr@proton.me with proof of ownership, and I'll remove it as quickly as possible!
+## 🛜 Deploying Railin'
+1. Download the Railin' Repository. (Git Command: `git clone https://github.com/Hypverr/Railin.git`)
+1. Run `npm i` in your command line to install needed modules.
+1. When modules are done installing run `npm run start`.
+1. Railin' should be running on your computer at http://localhost:8000/. *(8000 is default you can change it in index.js)*
 
-Railin' is powered by [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet), and [Ruffle](https://github.com/ruffle-rs/ruffle/).
-Icons from [Simple Icons](https://simpleicons.org/) and [Feather Icons](https://feathericons.com/).
+<hr>
 
-Railin' is Running off of an older version of ultraviolet because this was built before v3 so expect errors.
+## ⚠️ DMCA Takedown
+If you're a game developer who prefers not to have your games on random game-site platforms and your game is on Railin', but you don't want it there, please don't take down this repository. Instead, submit a GitHub Issue to remove it [**here**](https://github.com/Hypverr/Railin/issues/new?assignees=&labels=REMOVAL&projects=&template=game-removal.yml) or send me an email at [cartxrr@proton.me](mailto:cartxrr@proton.me).
 
-Railin' v3 will **NOT** work with GitHub Pages. If you want to use GitHub Pages use [Railin' v2](https://github.com/Hypverr/Railin/tree/278fc2ffd1097e1cb9869843077c286fbcc624b3).
+<hr>
 
-Semi-Important Links:
-- [**Game Files**](https://github.com/Hypverr/RailinFiles)
-- [Railin' v2](https://github.com/Hypverr/Railin/tree/278fc2ffd1097e1cb9869843077c286fbcc624b3)
-- [Railin' v1](https://github.com/Hypverr/Railin/tree/be0d6fa8f84b97ef90da0908b98ded044a53d3a5)
+## ℹ️ Info
+**If you Fork please consider giving Railin' a Star too! ⭐**
+
+Railin' is powered by [Ultraviolet v2](https://github.com/titaniumnetwork-dev/Ultraviolet) (because the dev is a lazy bum). <br>
+Icons from [Feather Icons](https://feathericons.com/).
+
+Join our Discord!<br>
+[![](https://invidget.switchblade.xyz/ztaAeutRAD)](https://discord.gg/ztaAeutRAD)

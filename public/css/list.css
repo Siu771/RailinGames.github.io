@@ -25,3 +25,7 @@ main .holder {
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+main .holder .invert {
+  filter: var(--icon);
+}

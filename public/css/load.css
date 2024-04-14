@@ -40,10 +40,6 @@ main article .left {
   gap: 15px;
   padding: 25px;
 }
-main article .left img {
-  width: 64px;
-  border-radius: 0.6rem;
-}
 main article .left h1 {
   overflow: hidden;
   white-space: nowrap;

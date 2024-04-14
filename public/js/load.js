@@ -1,25 +1,26 @@
-async function Setup(id) {
-    const Projects = await (await fetch(`/cdn/projects/list.json`)).json();
-    const Apps = await (await fetch(`/cdn/apps/list.json`)).json();
+(async function() {
+    const id = window.location.pathname.replace("/load/", "");
+    const list = await (await fetch(`/json/lists.json`)).json();
+    const custom_list = JSON.parse(localStorage.getItem("railin-custom"));
+    let item;
 
-    let ProjectsIndex = Projects.findIndex((e) => e.dir.replace("/", "") === id);
-    let AppsIndex = Apps.findIndex((e) => e.id.toString() === id);
-
-    if (ProjectsIndex !== -1) {
-        document.getElementById("iFrame").src = "/cdn/projects/" + Projects[ProjectsIndex].dir;
-        document.getElementById("Icon").src = "/cdn/projects/" + Projects[ProjectsIndex].dir + Projects[ProjectsIndex].img;
-        document.getElementById("Title").innerText = Projects[ProjectsIndex].name;
-    } else if (AppsIndex !== -1) {
-        document.getElementById("iFrame").src = __uv$config.prefix + __uv$config.encodeUrl(Apps[AppsIndex].url);
-        document.getElementById("Icon").src = `/cdn/apps/icons/${Apps[AppsIndex].app.toLowerCase()}.png`;
-        document.getElementById("Title").innerText = Apps[AppsIndex].app;
+    // this is weird and repetitive but it gets the job done
+    if (list) {
+        if (!item) item = list["projects"].find((e) => e.id === id);
+        if (!item) item = list["apps"].find((e) => e.id === id);
     }
-}
 
-document.getElementById("Fullscreen").addEventListener("mousedown", function() {
-    document.getElementById("iFrame").requestFullscreen();
-})
+    if (custom_list) {
+        if (!item) item = custom_list["projects"].find((e) => e.id === id);
+        if (!item) item = custom_list["apps"].find((e) => e.id === id);
+    }
 
-document.getElementById("OpenLink").addEventListener("mousedown", function() {
-    window.open(document.getElementById("iFrame").src);
-})
+    if (item) {
+        document.getElementById("iFrame").src = __uv$config.prefix + __uv$config.encodeUrl(item.url);
+        document.getElementById("Title").innerText = item.name;
+    }
+}())
+
+
+document.getElementById("Fullscreen").addEventListener("click", () => { document.getElementById("iFrame").requestFullscreen(); })
+document.getElementById("OpenLink").addEventListener("click", () => { window.open(document.getElementById("iFrame").src); })
