@@ -1,0 +1,16 @@
+{
+  "name": "railin",
+  "version": "3.2.4",
+  "description": "Best Unblocked Game Site on The Block",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@titaniumnetwork-dev/ultraviolet": "2.0.0",
+    "@tomphttp/bare-server-node": "2.0.1",
+    "express": "^4.19.1"
+  }
+}

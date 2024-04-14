@@ -1,0 +1,82 @@
+:root {
+    --text: #fff;
+    --link: #0ea5e9;
+    --bg: #18181b;
+    --bgimg: none;
+    --box: rgba(63, 63, 70, 0.5);
+    --box2: var(--box);
+    --boxhover: rgba(198, 167, 131, 0.5);
+    --boxborder: rgba(100, 100, 100, 0.05);
+    --icon: invert(0);
+    --logo: url("/img/logo.png");
+    --font: "Raleway", sans-serif;
+}
+
+
+[data-theme="e926.net"] {
+    --link: #b4c7d9;
+    --bg: #020f23;
+    --bgimg: url("/img/themes/e6-bg.png");
+    --logo: url("/img/themes/e6-logo.png");
+    --box: #152f56;
+    --box2: #1f3c67;
+    --boxhover: #0c4475;
+    --boxborder: 020f23;
+    --font: verdana, sans-serif;
+}
+  
+[data-theme="Light"] {
+    --text: #18181b;
+    --link: #0026ff;
+    --bg: #fff;
+    --box: rgba(0, 0, 0, 0.125);
+    --boxhover: rgba(0, 0, 0, 0.05);
+    --boxborder: rgba(0, 0, 0, 0.01);
+    --icon: invert(1);
+    --logo: url("/img/themes/black-logo.png");
+}
+  
+[data-theme="Rifted"] {
+    --bg: #1e2124;
+    --box: rgba(44,47,51, 0.5);
+    --boxhover: rgba(54,57,62, 0.5);
+    --boxborder: rgba(54,57,62, 0.25);
+    --font: "Inter", sans-serif;
+}
+  
+[data-theme="Nova"] {
+    --text: #6600ff;
+    --link: #33cc66;
+    --bg: #000;
+    --box: #111111;
+    --box2: #222222;
+    --boxhover: #333333;
+    --boxborder: rgba(0,0,0,0);
+    --logo: url("/img/themes/nova-logo.png");
+    --icon: invert(59%) sepia(98%) saturate(331%) hue-rotate(88deg) brightness(92%) contrast(91%);
+    --font: "Nunito", "JetBrains Mono", sans-serif;
+}
+
+[data-theme="The Hub"] {
+    --bg: #000;
+    --box: #0e0e0e;
+    --box2: #252525;
+    --boxhover: #333333;
+    --boxborder: none;
+    --logo: url("/img/themes/hub-logo.png");
+    --font: Arial, Helvetica, sans-serif;
+}
+
+[data-theme="Steam"] {
+    --text: #dcdedf;
+    --link: #1a9fff;
+    --bg: #1b2838;;
+    --bgimg: none;
+    --box: #171d25;
+    --box2: #262d36;
+    --boxhover: var(--box2);
+    --boxborder: none;
+    --icon: invert(5%);
+    --logo: url("/img/themes/steam-logo.png");
+    --font: Arial, Helvetica, sans-serif;
+}

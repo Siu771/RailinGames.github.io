@@ -1,0 +1,41 @@
+{
+    "Themes": {
+        "Colors": [
+            "Default",
+            "Light"
+        ],
+        "Sites": [
+            "Rifted",
+            "Nova",
+            "e926.net",
+            "The Hub",
+            "Steam"
+        ]
+    },
+    "Cloaks": [
+        {
+            "cloak": "Railin",
+            "title": "Railin'"
+        },
+        {
+            "cloak": "Canvas",
+            "title": "Dashboard"
+        },
+        {
+            "cloak": "Classroom",
+            "title": "Home"
+        },
+        {
+            "cloak": "Powerschool",
+            "title": "Student and Parent Sign In"
+        },
+        {
+            "cloak": "Google",
+            "title": "Google"
+        },
+        {
+            "cloak": "Drive",
+            "title": "My Drive - Google Drive"
+        }
+    ]
+}
