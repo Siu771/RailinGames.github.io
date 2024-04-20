@@ -18,6 +18,7 @@
     if (item) {
         document.getElementById("iFrame").src = __uv$config.prefix + __uv$config.encodeUrl(item.url);
         document.getElementById("Title").innerText = item.name;
+        document.getElementById("Icon").src = item.img;
     }
 }())
 

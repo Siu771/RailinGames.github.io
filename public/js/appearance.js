@@ -1,11 +1,17 @@
-(function() {
-    let Settings = JSON.parse(localStorage.getItem("railin-settings")) || {"Cloak": {"cloak":"Railin","title":"Railin'"}, "Theme": "Default", "Engine": "Google"}
-    if (Settings) {
-        document.documentElement.setAttribute("data-theme", Settings["Theme"]);
-        localStorage.setItem("railin-settings", JSON.stringify(Settings))
+(async function() {
+    let Settings = JSON.parse(localStorage.getItem("railin-settings")) || {};
 
-        if (Settings["Cloak"].cloak.toLowerCase() == "railin") return;
-        document.querySelector("link[rel='icon']").href = `/img/cloaks/${Settings["Cloak"].cloak.toLowerCase()}.png`;
-        document.title = Settings["Cloak"].title;
+    if (Settings) {
+        if (Settings["Theme"]) document.documentElement.setAttribute("data-theme", Settings["Theme"]);
+        
+        if (Settings["Cloak"]) {
+            if (Settings["Cloak"] == "Railin") return;
+            let Cloaks = await (await fetch("/json/cloaks.json")).json();
+            const CloakData = Cloaks.find((e) => e.name === Settings["Cloak"]);
+            document.querySelector("link[rel='icon']").href = CloakData["img"];
+            document.title = CloakData["title"];
+        }
+    
+        localStorage.setItem("railin-settings", JSON.stringify(Settings))
     }
 }())

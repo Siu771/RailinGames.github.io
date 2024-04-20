@@ -1,30 +1,31 @@
-let settings = JSON.parse(localStorage.getItem("railin-settings"));
-const searchbar = document.querySelector(".search");
-if (settings["Theme"] == "The Hub") document.querySelector(".HubThing").style.display = "inline"; // yes i added a hub thing.
+document.addEventListener("DOMContentLoaded", async function() {
+    const searchbar = document.querySelector(".search");
 
-function search() {
-    let url = searchbar.value;
-    if (url.startsWith("https://" || "http://")) window.open(__uv$config.prefix + __uv$config.encodeUrl(url))
-    else if (settings) switch (settings["Engine"]) {
-        case "Google":
-            window.open(__uv$config.prefix + __uv$config.encodeUrl("https://www.google.com/search?q=" + encodeURIComponent(url)));
-            break;
-        case "DuckDuckGo":
-            window.open(__uv$config.prefix + __uv$config.encodeUrl("https://duckduckgo.com/?q=" + encodeURIComponent(url)));
-            break;
-        case "Bing":
-            window.open(__uv$config.prefix + __uv$config.encodeUrl("https://www.bing.com/search?q=" + encodeURIComponent(url)));
+    // Theme Settings
+    let Settings = JSON.parse(localStorage.getItem("railin-settings"));
+    if (Settings["Theme"] && Settings["Theme"] == "The Hub") document.querySelector(".HubThing").style.display = "inline";
+
+    // Search Bar
+    function search() {
+        let url = searchbar.value;
+        if (url.startsWith("https://") || url.startsWith("http://")) window.location.replace(__uv$config.prefix + __uv$config.encodeUrl(url));
+
+        // Switch Statement was longer 🤭
+        if (Settings && Settings["Engine"]) {
+            if (Settings["Engine"] == "DuckDuckGo")  window.location.replace(__uv$config.prefix + __uv$config.encodeUrl("https://duckduckgo.com/?q=" + encodeURIComponent(url)));
+            else if (Settings["Engine"] == "Bing") window.location.replace(__uv$config.prefix + __uv$config.encodeUrl("https://www.bing.com/search?q=" + encodeURIComponent(url)));
+            else window.location.replace(__uv$config.prefix + __uv$config.encodeUrl("https://www.google.com/search?q=" + encodeURIComponent(url)));
+        } else window.location.replace(__uv$config.prefix + __uv$config.encodeUrl("https://www.google.com/search?q=" + encodeURIComponent(url)));
     }
-    else console.error("Uh oh I dont know what happened.");
-}
 
-document.querySelector(".accept").addEventListener("click", search)
+    document.querySelector(".accept").addEventListener("click", search) // Register URL on button press
+    searchbar.addEventListener("keypress", (e) => { if (e.key === "Enter") { search() } }) // Register URL on enter
 
-searchbar.addEventListener("keypress", (e) => {
-    if (e.key === "Enter") { search() }
+    // Splash Text
+    const Splash = document.getElementById("SplashText");
+    async function roll() { 
+        const Splashes = await (await fetch("/json/splash.json")).json();
+        Splash.innerHTML = Splashes[Math.floor(Math.random() * Splashes.length)]; 
+    }
+    Splash.addEventListener("click", roll)
 })
-
-(async function() {
-    const Splashes = await (await fetch("/json/splash.json")).json();
-    document.getElementById("SplashText").innerHTML = Splashes[Math.floor(Math.random() * Splashes.length)];
-}())

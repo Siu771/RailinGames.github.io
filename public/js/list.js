@@ -1,4 +1,5 @@
-async function Render(name) {
+(async function() {
+    const name = window.location.pathname.replace("/", ""); // this is gonna be buggy af but whatever
     let list = await (await fetch("/json/lists.json")).json();
     let custom = JSON.parse(localStorage.getItem("railin-custom"));
 
@@ -20,12 +21,11 @@ async function Render(name) {
     
         document.querySelector(".holder").appendChild(item);
     })
-}
+}())
 
 const searchbox = document.getElementById("searchbox");
 searchbox.addEventListener("input", () => { document.querySelector(".holder").querySelectorAll("a").forEach((item) => {
-    var names = item.querySelector("span").innerText.trim().toLowerCase();
-    if (!names.startsWith(searchbox.value.trim().toLowerCase())) item.style.display = "none";
+    if (!item.querySelector("span").innerText.toLowerCase().startsWith(searchbox.value.toLowerCase())) item.style.display = "none";
     else item.style.display = "block";
 })});
 
@@ -35,7 +35,7 @@ function addCustom(type) {
     const name = prompt(`What should the ${type} be called?`);
     if (data[type].some(obj => obj.name === name)) return alert("This already exists");
     let url = prompt(`What is the url for this ${type}?`);
-    let img = prompt(`Do you have an image for this ${type}?`);
+    let img = prompt(`Do you have an image for this ${type}? (Leave blank if you dont have an image)`);
 
     if (!name || !url) return alert(`Please set ${type} name and url!`);
     if (!url.startsWith("https://") || !url.startsWith("http://")) url = "https://" + url;

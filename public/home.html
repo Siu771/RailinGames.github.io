@@ -13,7 +13,50 @@
     <meta name="theme-color" content="#eb6123" />
     <!-- Styles -->
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/list.css">
+    <style>
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 150px 0 0;
+        }
+
+        .holder {
+            gap: 12px;
+            margin-top: 12px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .holder .search {
+            padding: 16px;
+            width: 256px;
+            height: 12px;
+        }
+        #SplashText {
+            cursor: pointer;
+            margin-top: 12px;
+        }
+        .holder .accept {
+            padding: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .holder .accept img {
+            width: 24px;
+            filter: var(--icon);
+        }
+
+        .HubThing {
+            font-size: 65px;
+            background-color: #fb9700;
+            color: #000;
+            border-radius: 12px;
+            padding: 0 12px;
+        }
+    </style>
 </head>
 <body>
     <!-- Nav Bar -->
@@ -27,21 +70,17 @@
     </nav>
     <!-- Actual Content -->
     <main class="main">
-        <h1 style="margin: 15px 0;">Projects</h1>
-
-        <input id="searchbox" type="text" placeholder="Search Projects">
-
+        <span style="font-size: 65px;">Railin' 
+            <span style="display: none;" class="HubThing">HUB</span>
+        </span>           
+        <span id="SplashText">Welcome!</span>
         <div class="holder">
-            <a onclick="addCustom('projects')">
-                <div class="box btn-1">
-                    <img class="invert" src="/img/icons/add.svg" loading="lazy">
-                    <span>Add Custom Project</span>
-                </div>
-            </a>
+            <input type="url" placeholder="Search The Web!" class="box search">
+            <button class="box accept"><img src="/img/icons/search.svg"></button>
         </div>
     </main>
     <!-- Scripts -->
-    <script src="/js/list.js"></script>
+    <script src="/js/index.js"></script>
     <script src="/js/appearance.js"></script>
     <script src="/uv/uv.bundle.js"></script>
     <script src="/uv.config.js"></script>

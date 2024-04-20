@@ -6,7 +6,7 @@ const port = 8000;
 
 const app = express();
 app.use(express.static("public", { extensions: ['html', 'htm'] }));
-app.get('/load/:id', (req, res) => { res.sendFile(__dirname + '/public/load.html') })
+app.get('/load/:id', (req, res) => { res.sendFile(__dirname + '/public/load.html') }) // Allows loading projects and apps through id
 
 const server = createServer();
 const bare = createBareServer("/bare/");

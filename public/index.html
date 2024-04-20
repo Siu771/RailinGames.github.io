@@ -1,3 +1,4 @@
+<!-- This is basically a useless file -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,77 +14,22 @@
     <meta name="theme-color" content="#eb6123" />
     <!-- Styles -->
     <link rel="stylesheet" href="/css/main.css">
-    <style>
-        main {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 150px 0 0;
-        }
-
-        .holder {
-            gap: 12px;
-            margin-top: 12px;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-        }
-        .holder .search {
-            padding: 16px;
-            width: 256px;
-            height: 12px;
-        }
-        #SplashText {
-            cursor: pointer;
-            margin-top: 12px;
-        }
-        .holder .accept {
-            padding: 12px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .holder .accept img {
-            width: 24px;
-            filter: var(--icon);
-        }
-
-        .HubThing {
-            font-size: 65px;
-            background-color: #fb9700;
-            color: #000;
-            border-radius: 12px;
-            padding: 0 12px;
-        }
-    </style>
+    <style>body{overflow: hidden;}iframe{width: 100vw;height: 100vh;border: none;outline: none;}</style>
 </head>
 <body>
-    <!-- Nav Bar -->
-    <nav class="NavBar">
-        <div class="left">
-            <a href="/" class="logo box"></a>
-            <a href="/projects" class="btn box"><img src="/img/icons/project.svg"> Projects</a>
-            <a href="/apps" class="btn box"><img src="/img/icons/app.svg"> Apps</a>
-        </div>
-        <div><a href="/settings" class="btn box"><img src="/img/icons/settings.svg"></a></div>
-    </nav>
-    <!-- Actual Content -->
-    <main class="main">
-        <span style="font-size: 65px;">Railin' 
-            <span style="display: none;" class="HubThing">HUB</span>
-        </span>           
-        <span id="SplashText">Welcome!</span>
-        <div class="holder">
-            <input type="url" placeholder="Search The Web!" class="box search">
-            <button class="box accept"><img src="/img/icons/search.svg"></button>
-        </div>
-    </main>
-    <!-- Scripts -->
-    <script src="/js/index.js"></script>
-    <script src="/js/appearance.js"></script>
-    <script src="/uv/uv.bundle.js"></script>
-    <script src="/uv.config.js"></script>
-    <script> (async function() { await window.navigator.serviceWorker.register("/sw.js", { scope: window.__uv$config.prefix, });  }()) </script>
+    <iframe src="/home"></iframe>
+    <script>
+        let Settings = JSON.parse(localStorage.getItem("railin-settings"));
+        if (Settings && Settings["OnPageLoad"]) {
+            if (Settings["OnPageLoad"] == "About:Blank") {
+                    var wnd = window.open('', '_blank'); wnd.document.body.style.margin = "0"; wnd.document.body.style.height = "100vh";
+                    var iframe = wnd.document.createElement("iframe"); iframe.style.border = "none"; iframe.style.width = "100%"; iframe.style.height = "100%"; iframe.style.margin = "0"; iframe.referrerpolicy = "no-referrer"; iframe.allow = "fullscreen"; iframe.src = `${window.location.origin}/home`;
+                    wnd.document.body.appendChild(iframe);
+                    window.location.replace("https://google.com/");
+            } else if (Settings["OnPageLoad"] == "Open File") {
+                window.location.replace("/home")
+            }
+        }
+    </script>
 </body>
 </html>

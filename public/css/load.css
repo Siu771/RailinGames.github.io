@@ -46,6 +46,11 @@ main article .left h1 {
   word-wrap: break-word;
   text-overflow: ellipsis;
 }
+main article .left #Icon {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 99999rem;
+}
 main article .right {
   padding: 15px;
   display: flex;
@@ -55,9 +60,14 @@ main article .right {
 }
 main article .right button {
   border-radius: 0.6rem;
+  background-color: var(--box2);
   padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 main article .right button img {
   width: 32px;
+  height: 32px;
   filter: var(--icon);
 }

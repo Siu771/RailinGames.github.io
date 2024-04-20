@@ -1,12 +1,13 @@
 {
   "name": "railin",
-  "version": "3.2.4",
-  "description": "Best Unblocked Game Site on The Block",
+  "version": "3.2.5",
+  "description": "Your Track to Unrestricted Web Access!",
+  "repository": "https://github.com/Hypverr/Railin",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
+  "author": "hypverr",
   "license": "ISC",
   "dependencies": {
     "@titaniumnetwork-dev/ultraviolet": "2.0.0",

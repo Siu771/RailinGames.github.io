@@ -2,85 +2,85 @@
     "projects": [
         {
             "name": "Gun Mayhem 2",
-            "img": "./img/projects/gm2.png",
+            "img": "/img/projects/gm2.png",
             "id": "001",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=GunMayhem2"
         },
         {
             "name": "Papa's Freezeria",
-            "img": "./img/projects/pf.jpg",
+            "img": "/img/projects/pf.jpg",
             "id": "002",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=PapaLouiesFreezeria"
         },
         {
             "name": "Papa's Pizzeria",
-            "img": "./img/projects/pp.jpg",
+            "img": "/img/projects/pp.jpg",
             "id": "003",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=PapaLouiesPizzera"
         },
         {
             "name": "Papa's Scooperia",
-            "img": "./img/projects/ps.jpg",
+            "img": "/img/projects/ps.jpg",
             "id": "004",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=PapaLouiesScooperia"
         },
         {
             "name": "The Impossible Quiz",
-            "img": "./img/projects/tiq.png",
+            "img": "/img/projects/tiq.png",
             "id": "005",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=TheImpossibleQuiz"
         },
         {
             "name": "Jack Smith",
-            "img": "./img/projects/js.jpg",
+            "img": "/img/projects/js.jpg",
             "id": "006",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=Jacksmith"
         },
         {
             "name": "Learn To Fly",
-            "img": "./img/projects/ltf.png",
+            "img": "/img/projects/ltf.png",
             "id": "007",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=LearnToFly"
         },
         {
             "name": "Riddle School",
-            "img": "./img/projects/rs.png",
+            "img": "/img/projects/rs.png",
             "id": "008",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=RiddleSchool"
         },
         {
             "name": "Riddle School 2",
-            "img": "./img/projects/rs2.png",
+            "img": "/img/projects/rs2.png",
             "id": "009",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=RiddleSchool2"
         },
         {
             "name": "Riddle School 3",
-            "img": "./img/projects/rs3.png",
+            "img": "/img/projects/rs3.png",
             "id": "010",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=RiddleSchool3"
         },
         {
             "name": "Riddle School 4",
-            "img": "./img/projects/rs4.png",
+            "img": "/img/projects/rs4.png",
             "id": "011",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=RiddleSchool4"
         },
         {
             "name": "Riddle School 5",
-            "img": "./img/projects/rs5.png",
+            "img": "/img/projects/rs5.png",
             "id": "012",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=RiddleSchool5"
         },
         {
             "name": "Riddle School Transfer",
-            "img": "./img/projects/rst.png",
+            "img": "/img/projects/rst.png",
             "id": "013",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=RiddleSchoolTransfer"
         },
         {
             "name": "Riddle School Transfer 2",
-            "img": "./img/projects/rst2.png",
+            "img": "/img/projects/rst2.png",
             "id": "014",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=RiddleSchoolTransfer2"
         },
@@ -92,103 +92,103 @@
         },
         {
             "name": "Slope",
-            "img": "./img/projects/slo.png",
+            "img": "/img/projects/slo.png",
             "id": "016",
             "url": "https://storage.y8.com/y8-studio/unity_webgl/bitlaslt/slope_v_1_2_5/"
         },
         {
             "name": "Nut Simulator",
-            "img": "./img/projects/ns.png",
+            "img": "/img/projects/ns.png",
             "id": "017",
             "url": "https://nutsimulator.github.io/index.html"
         },
         {
             "name": "MotoX3M",
-            "img": "./img/projects/mx3m.png",
+            "img": "/img/projects/mx3m.png",
             "id": "018",
             "url": "https://www.coolmathgames.com/0-moto-x3m/play"
         },
         {
             "name": "MotoX3M Winter",
-            "img": "./img/projects/mx3mw.png",
+            "img": "/img/projects/mx3mw.png",
             "id": "019",
             "url": "https://www.coolmathgames.com/0-moto-x3m-winter/play"
         },
         {
             "name": "MotoX3M Spooky Land",
-            "img": "./img/projects/mx3msl.png",
+            "img": "/img/projects/mx3msl.png",
             "id": "020",
             "url": "https://www.coolmathgames.com/0-moto-x3m-spooky-land/play"
         },
         {
             "name": "MotoX3M Pool Party",
-            "img": "./img/projects/mx3mpp.png",
+            "img": "/img/projects/mx3mpp.png",
             "id": "021",
             "url": "https://www.coolmathgames.com/0-moto-x3m-pool-party/play"
         },
         {
             "name": "OvO",
-            "img": "./img/projects/ovo.png",
+            "img": "/img/projects/ovo.png",
             "id": "022",
             "url": "https://www.coolmathgames.com/0-ovo/play"
         },
         {
             "name": "Friday Night Funkin Week 7",
-            "img": "./img/projects/fnfw7.png",
+            "img": "/img/projects/fnfw7.png",
             "id": "023",
             "url": "https://uploads.ungrounded.net/alternate/1528000/1528775_alternate_113347_r88.zip/"
         },
         {
             "name": "Friday Night Funkin Whitty",
-            "img": "./img/projects/fnfw.png",
+            "img": "/img/projects/fnfw.png",
             "id": "024",
             "url": "https://fnf.run3.io/whitty/5/"
         },
         {
             "name": "Duck Life 4",
-            "img": "./img/projects/dl4.png",
+            "img": "/img/projects/dl4.png",
             "id": "025",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=DuckLife4"
         },
         {
             "name": "Duck Life Treasure Hunt",
-            "img": "./img/projects/dlth.png",
+            "img": "/img/projects/dlth.png",
             "id": "026",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=DuckLife5"
         },
         {
             "name": "Fancy Pants",
-            "img": "./img/projects/fp.png",
+            "img": "/img/projects/fp.png",
             "id": "027",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=FancyPants"
         },
         {
             "name": "Fancy Pants 2",
-            "img": "./img/projects/fp2.png",
+            "img": "/img/projects/fp2.png",
             "id": "028",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=FancyPants2"
         },
         {
             "name": "Gun Mayhem",
-            "img": "./img/projects/gm.png",
+            "img": "/img/projects/gm.png",
             "id": "029",
             "url": "https://skynetwork-dev.github.io/Flash-Games/?game=GunMayhem"
         },
         {
             "name": "Territorial",
-            "img": "./img/projects/terr.png",
+            "img": "/img/projects/terr.png",
             "id": "030",
             "url": "https://territorial.io/"
         },
         {
             "name": "Trimps",
-            "img": "./img/projects/trim.png",
+            "img": "/img/projects/trim.png",
             "id": "031",
             "url": "https://trimps.github.io/"
         },
         {
             "name": "2048",
-            "img": "./img/projects/2048.png",
+            "img": "/img/projects/2048.png",
             "id": "032",
             "url": "https://play2048.co/"
         }
@@ -198,67 +198,67 @@
             "url": "https://google.com/",
             "name": "Google",
             "id": "501",
-            "img": "./img/apps/g.png"
+            "img": "/img/apps/g.png"
           },
           {
             "url": "https://duckduckgo.com/",
             "name": "DuckDuckGo",
             "id": "502",
-            "img": "./img/apps/ddg.png"
+            "img": "/img/apps/ddg.png"
           },
           {
             "url": "https://discord.com/",
             "name": "Discord",
             "id": "503",
-            "img": "./img/apps/dc.png"
+            "img": "/img/apps/dc.png"
           },
           {
             "url": "https://www.nvidia.com/en-us/geforce-now/",
             "name": "Geforce Now",
             "id": "504",
-            "img": "./img/apps/gfn.png"
+            "img": "/img/apps/gfn.png"
           },
           {
             "url": "https://www.tiktok.com/",
             "name": "TikTok",
             "id": "505",
-            "img": "./img/apps/tt.png"
+            "img": "/img/apps/tt.png"
           },
           {
             "url": "https://github.com/",
             "name": "GitHub",
             "id": "506",
-            "img": "./img/apps/gh.png"
+            "img": "/img/apps/gh.png"
           },
           {
             "url": "https://www.coolmathgames.com/",
             "name": "CoolMathGames",
             "id": "507",
-            "img": "./img/apps/clg.png"
+            "img": "/img/apps/clg.png"
           },
           {
             "url": "https://www.reddit.com/",
             "name": "Reddit",
             "id": "508",
-            "img": "./img/apps/rd.png"
+            "img": "/img/apps/rd.png"
           },
           {
             "url": "https://spotify.com/",
             "name": "Spotify",
             "id": "509",
-            "img": "./img/apps/sp.png"
+            "img": "/img/apps/sp.png"
           },
           {
             "url": "https://twitter.com/",
             "name": "Twitter",
             "id": "510",
-            "img": "./img/apps/twit.png"
+            "img": "/img/apps/twit.png"
           },
           {
             "url": "https://www.youtube.com/",
             "name": "YouTube",
             "id": "511",
-            "img": "./img/apps/yt.png"
+            "img": "/img/apps/yt.png"
           }
     ]
 }
