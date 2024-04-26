@@ -12,6 +12,9 @@ Railin' is a *#1* proxy frontend, allowing you to **bypass restrictions** like n
 1. When modules are done installing run `npm run start` or `node index.js`.
 1. Railin' should be running on your computer at http://localhost:8000/. *(8000 is default you can change it in index.js)*
 
+> [!WARNING] 
+> Railin' CANNOT BE HOSTED ON STATIC HOSTERS. Ex; Github Pages, Cloudflare Pages, Vercel, etc.
+
 <hr>
 
 ## ⚠️ DMCA Takedown
@@ -21,9 +24,6 @@ If you're a game developer who prefers not to have your games on random game-sit
 
 ## ℹ️ Info
 **If you Fork please consider giving Railin' a Star too! ⭐**
-
-> [!WARNING] 
-> Railin' CANNOT BE HOSTED ON STATIC HOSTERS. Ex; Github Pages, Cloudflare Pages, Vercel, etc.
 
 Railin' is powered by [Ultraviolet v2](https://github.com/titaniumnetwork-dev/Ultraviolet) (because the dev is a lazy bum). <br>
 Icons from [Feather Icons](https://feathericons.com/).

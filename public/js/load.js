@@ -1,3 +1,5 @@
+const iFrame = document.getElementById("iFrame");
+
 (async function() {
     const id = window.location.pathname.replace("/load/", "");
     const list = await (await fetch(`/json/lists.json`)).json();
@@ -16,12 +18,17 @@
     }
 
     if (item) {
-        document.getElementById("iFrame").src = __uv$config.prefix + __uv$config.encodeUrl(item.url);
+        iFrame.src = __uv$config.prefix + __uv$config.encodeUrl(item.url);
         document.getElementById("Title").innerText = item.name;
         document.getElementById("Icon").src = item.img;
     }
 }())
 
+iFrame.onload = function() {
+    if (__uv$config.decodeUrl(iFrame.src).includes("https://fnf.run3.io/")) {
+        iFrame.contentDocument.getElementById("playmore").remove()
+    }
+}
 
-document.getElementById("Fullscreen").addEventListener("click", () => { document.getElementById("iFrame").requestFullscreen(); })
+document.getElementById("Fullscreen").addEventListener("click", () => { iFrame.requestFullscreen(); })
 document.getElementById("OpenLink").addEventListener("click", () => { window.open(document.getElementById("iFrame").src); })

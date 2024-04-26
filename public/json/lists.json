@@ -94,7 +94,7 @@
             "name": "Slope",
             "img": "/img/projects/slo.png",
             "id": "016",
-            "url": "https://storage.y8.com/y8-studio/unity_webgl/bitlaslt/slope_v_1_2_5/"
+            "url": "https://lite.3kh0.net/projects/slope/"
         },
         {
             "name": "Nut Simulator",
@@ -127,10 +127,10 @@
             "url": "https://www.coolmathgames.com/0-moto-x3m-pool-party/play"
         },
         {
-            "name": "OvO",
+            "name": "OvO v1.4.4",
             "img": "/img/projects/ovo.png",
             "id": "022",
-            "url": "https://www.coolmathgames.com/0-ovo/play"
+            "url": "https://arjun99ab.github.io/ovo/1.4.4/"
         },
         {
             "name": "Friday Night Funkin Week 7",
@@ -191,6 +191,42 @@
             "img": "/img/projects/2048.png",
             "id": "032",
             "url": "https://play2048.co/"
+        },
+        {
+            "name": "Baldis Basics",
+            "img": "/img/projects/baldi.png",
+            "id": "033",
+            "url": "https://baldis-basics.github.io/file/"
+        },
+        {
+            "name": "Friday Night Funkin V.S. Tabi",
+            "img": "/img/projects/fnftabi.png",
+            "id": "034",
+            "url": "https://fnf.run3.io/tabi/5/"
+        },
+        {
+            "name": "Friday Night Funkin V.S. Tricky",
+            "img": "/img/projects/fnftrick.png",
+            "id": "035",
+            "url": "https://fnf.run3.io/tricky2/4/"
+        },
+        {
+            "name": "Friday Night Funkin V.S. Garcello",
+            "img": "/img/projects/fnfgar.png",
+            "id": "036",
+            "url": "https://fnf.run3.io/garcello/5/"
+        },
+        {
+            "name": "Friday Night Funkin Mid Fight Masses",
+            "img": "/img/projects/fnfmid.png",
+            "id": "037",
+            "url": "https://fnf.run3.io/midfight/2/"
+        },
+        {
+            "name": "OvO V1.4",
+            "img": "/img/projects/ovo-og.png",
+            "id": "038",
+            "url": "https://arjun99ab.github.io/ovo/1.4/"
         }
     ],
     "apps": [
