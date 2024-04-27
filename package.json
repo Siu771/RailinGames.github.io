@@ -1,14 +1,9 @@
 {
   "name": "railin",
-  "version": "3.2.7",
-  "description": "Your Track to Unrestricted Web Access!",
-  "repository": "https://github.com/Hypverr/Railin",
-  "main": "index.js",
+  "version": "3.2.8",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "hypverr",
-  "license": "ISC",
   "dependencies": {
     "@titaniumnetwork-dev/ultraviolet": "2.0.0",
     "@tomphttp/bare-server-node": "2.0.1",

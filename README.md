@@ -30,6 +30,3 @@ Icons from [Feather Icons](https://feathericons.com/).
 
 > [!NOTE]  
 > The Railin' commit history has been lost due to the .git folder being over 1GB for some reason, sorry.
-
-Join the Discord!<br>
-[![](https://invidget.switchblade.xyz/ztaAeutRAD)](https://discord.gg/ztaAeutRAD)
