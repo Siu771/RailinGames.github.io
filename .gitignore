@@ -1,5 +1,0 @@
-# useless af
-package-lock.json
-
-# lets not make the repo over 200mb
-node_modules
